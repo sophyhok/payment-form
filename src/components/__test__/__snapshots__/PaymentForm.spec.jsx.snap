@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    name="payment-form"
+  >
+    <div
+      class="container container__align_center container__justify_center container__gap_none container__fontColor_dark"
+      data-testid="container"
+    >
+      <h3>
+        Enter your Credit Card information
+      </h3>
+      <div>
+        <img
+          alt="visa"
+          src="visa.png"
+        />
+        <img
+          alt="amex"
+          src="amex.png"
+        />
+      </div>
+      <br />
+      <div
+        class="container container__align_start container__justify_center container__gap_md container__fontColor_dark"
+        data-testid="container"
+      >
+        <input
+          class="input input__boxStatus_none"
+          data-testid="input-name"
+          name="name"
+          pattern="[A-Za-z]{3}"
+          placeholder="Enter Name on Card"
+          type="text"
+          value=""
+        />
+        <input
+          class="input input__boxStatus_none"
+          data-testid="input-card"
+          name="card"
+          pattern="[A-Za-z]{3}"
+          placeholder="Enter Card Number"
+          type="tel"
+          value=""
+        />
+        <div>
+          <div>
+            Card Expiration
+          </div>
+          <select
+            class="dropdown dropdown__boxStatus_none"
+            data-testid="input-month"
+            name="expMonth"
+          >
+            <option>
+              01
+            </option>
+            <option>
+              02
+            </option>
+            <option>
+              03
+            </option>
+            <option>
+              04
+            </option>
+            <option>
+              05
+            </option>
+            <option>
+              06
+            </option>
+            <option>
+              07
+            </option>
+            <option>
+              08
+            </option>
+            <option>
+              09
+            </option>
+            <option>
+              10
+            </option>
+            <option>
+              11
+            </option>
+            <option>
+              12
+            </option>
+          </select>
+          <select
+            class="dropdown dropdown__boxStatus_none"
+            data-testid="input-year"
+            name="expYear"
+          >
+            <option>
+              2021
+            </option>
+            <option>
+              2022
+            </option>
+            <option>
+              2023
+            </option>
+            <option>
+              2024
+            </option>
+            <option>
+              2025
+            </option>
+            <option>
+              2026
+            </option>
+            <option>
+              2027
+            </option>
+            <option>
+              2028
+            </option>
+            <option>
+              2029
+            </option>
+            <option>
+              2030
+            </option>
+            <option>
+              2031
+            </option>
+          </select>
+        </div>
+        <input
+          class="input input__boxStatus_none"
+          data-testid="input-cvv"
+          name="cvv"
+          pattern="[A-Za-z]{3}"
+          placeholder="Enter CVV"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn__primary"
+          data-testid="button"
+        >
+          Submit Payment
+        </button>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;

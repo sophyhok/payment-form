@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <select
+    class="dropdown dropdown__boxStatus_none"
+    data-testid="dropdown"
+    name="button"
+  >
+    <option>
+      one
+    </option>
+    <option>
+      two
+    </option>
+    <option>
+      three
+    </option>
+  </select>
+</DocumentFragment>
+`;

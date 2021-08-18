@@ -1,0 +1,22 @@
+.input {
+  display: inline-flex;
+  width: auto;
+  background-color: #FFFFFF;
+  height: 32px;
+  padding: 0 16px;
+  border: 1px solid #939FB1;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+  &__boxStatus_danger {
+    border: 1px solid #FF0000;
+  }
+
+  &__boxStatus_success {
+    border: 1px solid #00FF00;
+  }
+
+  &__boxStatus_none {
+    border: 1px solid #939FB1;
+  }
+}

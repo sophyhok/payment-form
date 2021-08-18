@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <input
+    class="input input__boxStatus_none"
+    data-testid="input"
+    name="input"
+    pattern="[A-Za-z]{3}"
+    placeholder=""
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;

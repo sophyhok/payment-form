@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+
+  &__fontColor_success {
+    color: #00FF00;
+  }
+
+  &__fontColor_danger {
+    color: #FF0000;
+  }
+
+  &__fontColor_dark {
+    color: #1D2A3C;
+  }
+
+  &__fontColor_warning {
+    color: #F89C24;
+  }
+
+  &__gap_none {
+    gap: 0 0;
+  }
+  &__gap_xs {
+    gap: 12px 12px;
+  }
+  &__gap_sm {
+    gap: 16px 16px;
+  }
+  &__gap_md {
+    gap: 20px 20px;
+  }
+  &__gap_lg {
+    gap: 24px 24px;
+  }
+
+  &__align_start {
+    align-items: start;
+  }
+  &__align_end {
+    align-items: end;
+  }
+  &__align_center {
+    align-items: center;
+  }
+  &__align_stretch {
+    align-items: stretch;
+  }
+
+  &__justify_start {
+    justify-items: start;
+  }
+  &__justify_end {
+    justify-items: end;
+  }
+  &__justify_center {
+    justify-items: center;
+  }
+  &__justify_stretch {
+    justify-items: stretch;
+  }
+}
